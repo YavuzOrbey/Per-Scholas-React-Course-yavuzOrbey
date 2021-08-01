@@ -11,29 +11,23 @@ h1 {
 }
 
 .nav__list {
-
 }
 
 .nav__list_item {
-
 }
 
 .page {
-
 }
 
 .page__header {
   background-color: aqua;
-
 }
 .page__content {
   background-color: beige;
-
 }
 
 .left-content {
   background-color: burlywood;
-
 }
 
 .right-content {
@@ -41,10 +35,8 @@ h1 {
 }
 
 .main-content {
-
 }
 
 .main-content__section {
-  background-color: cornsilk;
-
+  background-color: rgb(255, 173, 173);
 }
