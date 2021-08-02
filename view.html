@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex-flow: row wrap; /* combo of 2 properties above*/
+            justify-content: center;
+            align-items: stretch;
+            max-width: 1200px;
+            margin: 0 auto;
+
+            }
+        .image-block{
+            min-width: 400px;
+            max-width: 500px;
+            padding: 20px;
+    
+        }
+        img{
+            max-width: 100%;
+            border: 1px solid #3d3d3d5d;
+            box-shadow: 1px 1px 3px 3px #b3b3b35d;
+            border-radius: 5px;
+        }
+        .description{
+            max-width: 700px;
+            padding: 10px;
+    
+        }
+        .techologies{
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="page__header">
+        <nav class="nav">
+          <ol class="nav__list">
+            <li class="nav__list-item"><a href='./index.html'>About</a></li>
+            <li class="nav__list-item"><a href='./portfolio.html' >Experience</a></li>
+          </ol>
+        </nav>
+      </header>
+    <div class="container">
+        <div class="description">
+            <h2>Name of Project</h2>
+            <span class='techologies'>Techologies Used: React, Java</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non sapien lectus. Maecenas gravida iaculis arcu, eget venenatis arcu venenatis quis. Proin et imperdiet sapien, vitae elementum neque. In risus ante, efficitur a leo in, cursus viverra nibh. Proin eu lorem nisi. Vivamus finibus felis velit, a eleifend mauris tempor et. Ut vulputate placerat elit id finibus. Ut rhoncus pretium dui, sed euismod justo ultricies sit amet. Ut in mauris in eros tincidunt sagittis id sed dolor. Fusce fringilla mattis malesuada.
+            </p>
+        </div>
+        <div class="image-block">
+            <img src="./hero.jpg">
+        </div> 
+
+        <div class="image-block">
+            <img src="./hero.jpg">
+        </div> 
+        <div class="description">
+            <p>
+                Morbi cursus massa sit amet faucibus varius. Nam venenatis semper placerat. Sed suscipit et nisi sit amet elementum. Integer quam nibh, sodales id urna eu, posuere pulvinar nisi. Fusce elementum nisl sodales urna semper, ac hendrerit urna blandit. Proin ligula felis, fringilla ac convallis a, viverra vel metus. Nunc eu purus augue. Praesent accumsan nisi sagittis, fermentum erat et, varius ante. Nulla consequat et nisl ut vulputate. Vestibulum quis quam et augue venenatis egestas in in risus. Etiam tempus erat et odio semper pharetra. Aliquam at mattis metus.
+            </p>
+        </div>
+        <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non sapien lectus. Maecenas gravida iaculis arcu, eget venenatis arcu venenatis quis. Proin et imperdiet sapien, vitae elementum neque. In risus ante, efficitur a leo in, cursus viverra nibh. Proin eu lorem nisi. Vivamus finibus felis velit, a eleifend mauris tempor et. Ut vulputate placerat elit id finibus. Ut rhoncus pretium dui, sed euismod justo ultricies sit amet. Ut in mauris in eros tincidunt sagittis id sed dolor. Fusce fringilla mattis malesuada.
+            </p>
+        </div>
+        <div class="image-block">
+            <img src="./hero.jpg">
+        </div> 
+        <div class="image-block">
+            <img src="./hero.jpg">
+        </div> 
+        <div class="description">
+            <p>
+                Morbi cursus massa sit amet faucibus varius. Nam venenatis semper placerat. Sed suscipit et nisi sit amet elementum. Integer quam nibh, sodales id urna eu, posuere pulvinar nisi. Fusce elementum nisl sodales urna semper, ac hendrerit urna blandit. Proin ligula felis, fringilla ac convallis a, viverra vel metus. Nunc eu purus augue. Praesent accumsan nisi sagittis, fermentum erat et, varius ante. Nulla consequat et nisl ut vulputate. Vestibulum quis quam et augue venenatis egestas in in risus. Etiam tempus erat et odio semper pharetra. Aliquam at mattis metus.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

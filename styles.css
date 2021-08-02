@@ -7,36 +7,57 @@ h1 {
 }
 
 .section-heading {
-  /* Add your own font here */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .nav__list {
+  list-style-type: none;
+  float: right;
 }
 
-.nav__list_item {
+.nav__list-item {
+  display: inline-block;
+  color: white;
 }
-
+.nav__list-item > a {
+  color: black;
+  font-size: 1.2rem;
+}
 .page {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./hero.jpg");
 }
 
 .page__header {
-  background-color: aqua;
+  /*background-color: aqua; */
 }
 .page__content {
-  background-color: beige;
+  /*background-color: beige; */
+  display: flex;
 }
 
 .left-content {
-  background-color: burlywood;
+  /*background-color: burlywood; */
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  color: white;
 }
-
+.left-content a {
+  color: black;
+}
 .right-content {
-  background-color: burlywood;
+  /*background-color: burlywood; */
 }
 
 .main-content {
+  display: flex;
+  flex-direction: column;
+  /*background-color: aliceblue; */
 }
 
 .main-content__section {
-  background-color: rgb(255, 173, 173);
+  /* background-color: rgb(255, 173, 173); */
 }
